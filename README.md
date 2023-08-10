@@ -1,7 +1,7 @@
 # notebooks
 - Step 1. Clone this repository: https://github.com/leovaldaev/notebooks/YOLO8
 
-- Step 2. Create a new virtual environment
+Step 2. Create a new virtual environment
 /n  
 python -m venv venv
 
