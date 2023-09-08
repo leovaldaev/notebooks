@@ -28,3 +28,4 @@
    ```jupyter notebook```
  
    ```!nvidia-smi```
+![Image alt](https://github.com/{leovaldaev}/{notebooks}/raw/{main}/{YOLOv8}/1.png)
