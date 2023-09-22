@@ -28,4 +28,12 @@
    ```jupyter notebook```
  
    ```!nvidia-smi```
-![Image alt](https://github.com/{leovaldaev}/{notebooks}/raw/{main}/{YOLOv8}/1.png)
+
+![Image alt](https://github.com/leovaldaev/Images_for_project/blob/main/YOLOv8/1.png)
+
+ - Step 7. Now, we just have two stable version of Cuda(11.7 и 11.8), которые бы поддерживал бы пайторч. Поэтому нам нужно переустановаить
+   драйверы нашей видеокарты и поставить нужную версию. В моем случае мне нужно сделать даунгрейд до версии 522.25, который будет поддерживать         куду 11.8. Сопряжение версий куды и версий драйверов нвидиа, вы можете посмотреть по первой ссылке
+
+   ![Image alt](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html)
+ 
+   ```.\venv\Scripts\activate # Windows```
