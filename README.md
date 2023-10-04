@@ -2,23 +2,25 @@
 
 ## Step 1. 
 
-Clone this repository: https://github.com/leovaldaev/notebooks/YOLO8
+Clone this repository: 
 
-- Step 2. Create a new virtual environment
+```git clone https://github.com/leovaldaev/notebooks/YOLO8```
+
+## Step 2. Create a new virtual environment
 
    ```python -m venv venv```
 
- - Step 3. Activate your virtual environment
+## Step 3. Activate your virtual environment
 
    ```source venv/bin/activate # Linux```
  
    ```.\venv\Scripts\activate # Windows```
 
- - Step 4. Install dependencies
+## Step 4. Install dependencies
    
    ```python -m pip install --upgrade pip```
 
- - Шаг 5. Установка пакетов
+## Шаг 5. Установка пакетов
     
    ```pip install ultralytics```
  
@@ -26,7 +28,8 @@ Clone this repository: https://github.com/leovaldaev/notebooks/YOLO8
 
    ```pip install ipykernel```
 
- - Шаг 6. Проверка установки
+## Шаг 6. Проверка установки
+
    Начнем с запуска jupyter notebook с команды в терминале. 
     
    ```jupyter notebook```
@@ -47,7 +50,7 @@ Clone this repository: https://github.com/leovaldaev/notebooks/YOLO8
 
    Как видите, мы успешно установили Ultralytics YOLOv8, но с процессором. Давайте теперь попробуем установить YOLOv8 с графическим процессором.
  
- - Шаг 7. Конфигурация графического процессора YOLOv8
+## Шаг 7. Конфигурация графического процессора YOLOv8
    
    Запустив данные команды мы еще раз убедимся, что YOLOv8 настроен с использованием ЦП.
 
@@ -92,7 +95,6 @@ Clone this repository: https://github.com/leovaldaev/notebooks/YOLO8
     ```torch.cuda.is_available()```
 
     ![Image alt](https://github.com/leovaldaev/Images_for_project/blob/main/YOLOv8/9.PNG)
-
 
    Хорошо, теперь мы получаем вывод как True. Это означает, что Torch теперь использует графический процессор в качестве серверной части. Давайте теперь еще раз проверим, настроен ли YOLOv8 с графическим процессором или нет.
 
